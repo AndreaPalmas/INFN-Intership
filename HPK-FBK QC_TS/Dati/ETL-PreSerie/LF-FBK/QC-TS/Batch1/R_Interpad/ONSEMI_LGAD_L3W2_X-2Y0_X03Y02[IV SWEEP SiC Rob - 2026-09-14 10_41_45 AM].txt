@@ -1,0 +1,172 @@
+Setup title	"IV SWEEP SiC Rob"
+Classic test name	"I/V Sweep"
+Test date	2026-09-14
+Test time	10:41:45
+Device ID	ONSEMI_LGAD_L3W2_X-2Y0_X03Y02
+Count	2
+Flags	
+Remarks	
+Context.MainFrame	B1500A
+Channel.UnitType	SMU	SMU	SMU
+Channel.Unit	SMU1:MP	SMU2:MP	SMU4:HV
+Channel.IName	I_pad	I_gr	I_back
+Channel.VName	V1	V2	V4
+Channel.Mode	V	V	V
+Channel.Func	CONST	CONST	VAR1
+Channel.Index	
+Channel.Time	
+Measurement.Port.Unit	SMU1:MP	SMU2:MP	SMU4:HV
+Measurement.Port.SeriesResistor	NONE	NONE	NONE
+Measurement.Port.Filter	ON	ON	ON
+Measurement.Port.OutputVoltageComparison	0	0	0
+Measurement.Primary.Locus	Double
+Measurement.Primary.Scale	LINEAR
+Measurement.Primary.Start	0
+Measurement.Primary.Stop	300
+Measurement.Primary.Step	2
+Measurement.Primary.Compliance	3E-09
+Measurement.Primary.PowerCompliance	0
+Measurement.Aborting.Condition	"CONTINUE AT ANY"
+Measurement.PostOutput.Value	START
+Measurement.PostOutput.Retention	OFF
+Measurement.Bias.Source	0	0	0
+Measurement.Bias.Compliance	2.5E-06	2.5E-06	3E-09
+Measurement.Monitor.Unit	SMU1:MP	SMU2:MP	SMU4:HV
+Measurement.Monitor.Adc	"HR ADC"	"HR ADC"	"HS ADC"
+Measurement.Monitor.Measurement	"Compliance Side"	"Compliance Side"	"Force and Compliance Sides"
+Measurement.Monitor.RangingMode	LIMITED	LIMITED	LIMITED
+Measurement.Monitor.RangeBoundary	1nA	1nA	10nA
+Measurement.Monitor.RangeRating	"BY FULL RANGE"	"BY FULL RANGE"	"BY FULL RANGE"
+Measurement.Monitor.RangeRatingCoeff	50	50	50
+Measurement.Timing.Hold	1
+Measurement.Timing.Delay	1
+Measurement.Adc.HighSpeed.Mode	AUTO
+Measurement.Adc.HighSpeed.Coeff	1
+Measurement.Adc.HighResolution.AutoZero	OFF
+Measurement.Adc.HighResolution.Mode	AUTO
+Measurement.Adc.HighResolution.Coeff	6
+Measurement.WaitTime.Source.Coeff	1
+Measurement.WaitTime.Source.Offset	0
+Measurement.WaitTime.Monitor.Coeff	1
+Measurement.WaitTime.Monitor.Offset	0
+Output.Graph.Enabled	true
+Output.Graph.AutoScaling	false
+Output.Graph.XAxis.Data	V4
+Output.Graph.XAxis.Scale	Linear
+Output.Graph.XAxis.Left	0
+Output.Graph.XAxis.Right	-260
+Output.Graph.XAxis.RunTimeAutoScale	true
+Output.Graph.YAxis.Data	I_back	I_pad	I_gr
+Output.Graph.YAxis.Scale	Linear	Linear	Linear
+Output.Graph.YAxis.Bottom	-1E-05	-1E-05	-1E-05
+Output.Graph.YAxis.Top	1E-05	1E-05	1E-05
+Output.Graph.YAxis.Group			
+Output.Graph.YAxis.RunTimeAutoScale	true	true	true
+AutoAnalysis.Interpolation	false
+AutoAnalysis.Var2StepCount	1
+AutoAnalysis.Var2StepScript	
+AutoAnalysis.Line1.Enabled	false
+AutoAnalysis.Line1.Type	1
+AutoAnalysis.Line1.Fix	True
+AutoAnalysis.Line1.YAxis	0
+AutoAnalysis.Line1.Point1.Type	0
+AutoAnalysis.Line1.Point1.XY.X	
+AutoAnalysis.Line1.Point1.XY.Y	
+AutoAnalysis.Line1.Point1.Data.Var	
+AutoAnalysis.Line1.Point1.Data.Condition	
+AutoAnalysis.Line1.Point1.Data.Start	false
+AutoAnalysis.Line1.Point1.Data.StartVar	
+AutoAnalysis.Line1.Point1.Data.StartCondition	
+AutoAnalysis.Line1.Point2.Type	0
+AutoAnalysis.Line1.Point2.XY.X	
+AutoAnalysis.Line1.Point2.XY.Y	
+AutoAnalysis.Line1.Point2.Data.Var	
+AutoAnalysis.Line1.Point2.Data.Condition	
+AutoAnalysis.Line1.Point2.Data.Start	false
+AutoAnalysis.Line1.Point2.Data.StartVar	
+AutoAnalysis.Line1.Point2.Data.StartCondition	
+AutoAnalysis.Line1.GradientExpr	0
+AutoAnalysis.Line2.Enabled	false
+AutoAnalysis.Line2.Type	1
+AutoAnalysis.Line2.Fix	True
+AutoAnalysis.Line2.YAxis	0
+AutoAnalysis.Line2.Point1.Type	0
+AutoAnalysis.Line2.Point1.XY.X	
+AutoAnalysis.Line2.Point1.XY.Y	
+AutoAnalysis.Line2.Point1.Data.Var	
+AutoAnalysis.Line2.Point1.Data.Condition	
+AutoAnalysis.Line2.Point1.Data.Start	false
+AutoAnalysis.Line2.Point1.Data.StartVar	
+AutoAnalysis.Line2.Point1.Data.StartCondition	
+AutoAnalysis.Line2.Point2.Type	0
+AutoAnalysis.Line2.Point2.XY.X	
+AutoAnalysis.Line2.Point2.XY.Y	
+AutoAnalysis.Line2.Point2.Data.Var	
+AutoAnalysis.Line2.Point2.Data.Condition	
+AutoAnalysis.Line2.Point2.Data.Start	false
+AutoAnalysis.Line2.Point2.Data.StartVar	
+AutoAnalysis.Line2.Point2.Data.StartCondition	
+AutoAnalysis.Line2.GradientExpr	0
+AutoAnalysis.Marker.Enabled	false
+AutoAnalysis.Marker.Data.Var	
+AutoAnalysis.Marker.Data.Condition	
+AutoAnalysis.Marker.Data.Start	false
+AutoAnalysis.Marker.Data.StartVar	
+AutoAnalysis.Marker.Data.StartCondition	
+V4	I_back	I_pad	I_gr
+0	1.33198E-09	-1.1076E-10	-8.65E-12
+0.027	3.00003E-09	-9.06E-12	-5.56E-12
+0.0545	2.99996E-09	-7.708E-11	-1.168E-11
+0.083	3.00014E-09	-4.859E-11	-1.466E-11
+0.1095	3.00005E-09	-7.621E-11	-1.515E-11
+0.1375	3.00003E-09	2.806E-11	-1.228E-11
+0.1655	3.00003E-09	5.001E-11	-9.49E-12
+0.1935	2.99995E-09	6.06E-11	-2.96E-12
+0.2215	3.00008E-09	-3.115E-11	-4.97E-12
+0.2485	2.99993E-09	-4.071E-11	-1.179E-11
+0.276	3.00002E-09	-9.761E-11	-1.278E-11
+0.3045	2.99995E-09	-2.616E-11	-1.411E-11
+0.3315	2.99999E-09	-7.324E-11	-7.55E-12
+0.36	3.00001E-09	-5.953E-11	-4.33E-12
+0.3875	2.99995E-09	-1.7051E-10	-1.32E-11
+0.4145	2.99998E-09	-1.0975E-10	-2.014E-11
+0.442	3.00002E-09	-9.366E-11	-1.661E-11
+0.4705	2.99997E-09	-8.178E-11	-9.12E-12
+0.497	3.00002E-09	-3.735E-11	5E-14
+0.5255	2.99996E-09	-7.456E-11	-6.16E-12
+0.553	2.99998E-09	-8.623E-11	-1.099E-11
+0.581	2.99995E-09	-1.6897E-10	-1.598E-11
+0.608	3.00006E-09	-8.167E-11	-1.38E-11
+0.6365	2.99995E-09	-1.0186E-10	-1.134E-11
+0.664	2.99995E-09	1.854E-11	-1.175E-11
+0.6925	2.99991E-09	-4.537E-11	-1.439E-11
+0.719	3.00006E-09	1.988E-11	-1.284E-11
+0.748	3.00008E-09	-2.803E-11	-1.001E-11
+0.7755	3.00005E-09	-3.859E-11	-9.05E-12
+0.802	2.99999E-09	-2.968E-11	-4.2E-12
+0.831	3.00001E-09	-5.741E-11	-6.49E-12
+0.859	2.99996E-09	8.6E-12	-9.82E-12
+0.8865	3E-09	-6.159E-11	-1.737E-11
+0.9135	3.00006E-09	-5.434E-11	-1.929E-11
+0.942	3.00003E-09	-6.881E-11	-1.139E-11
+0.9695	2.99993E-09	1.637E-11	-7.53E-12
+0.998	2.99993E-09	-2.554E-11	-8.23E-12
+1.024	3E-09	2.068E-11	-1.268E-11
+1.052	3.00006E-09	-2.116E-11	-1.428E-11
+1.081	3E-09	-6.295E-11	-9.72E-12
+1.108	3.00001E-09	-9.974E-11	-9.1E-12
+1.135	3.00002E-09	-4.867E-11	-1.41E-11
+1.164	2.99996E-09	-3.955E-11	-1.308E-11
+1.1905	3.00004E-09	-1.4158E-10	-2.053E-11
+1.218	3.00003E-09	-1.0422E-10	-2.477E-11
+1.2465	3.00003E-09	-1.1561E-10	-1.274E-11
+1.274	2.99999E-09	-1.322E-11	-5.9E-13
+1.3025	2.99998E-09	-5.78E-11	-1.183E-11
+1.329	3.00003E-09	-3.754E-11	-7.89E-12
+1.3565	3.00003E-09	-9.366E-11	-1.144E-11
+1.3855	3.0001E-09	-1.0013E-10	-6.59E-12
+1.4125	2.99998E-09	3.4E-13	-6.38E-12
+1.44	2.99994E-09	-3.762E-11	-6.12E-12
+1.4675	2.99994E-09	-1.301E-11	-1.149E-11
+1.4955	2.99995E-09	-3.805E-11	-1.966E-11
+1.523	2.99999E-09	-1.562E-11	-1.862E-11

@@ -1,0 +1,188 @@
+Setup title	C-V_LGAD
+Classic test name	"C-V Sweep"
+Test date	2026-05-18
+Test time	14:39:22
+Device ID	PRE_HPK_16X16_W6_S24-D16
+Count	36
+Flags	
+Remarks	
+Channel.UnitTyp	SMU	CMU	SMU
+Channel.Unit	SMU4:HV	CMU1:MF	GNDU:GND
+Channel.IName	I4		I_GR
+Channel.VName	V4	VBias	V1
+Channel.Mode	V		COMMON
+Channel.Func	VAR1	CONST	CONST
+Channel.Index	
+Channel.Time	
+Measurement.Port.Unit	SMU4:HV	GNDU:GND
+Measurement.Port.SeriesResistor	NONE	NONE
+Measurement.Port.Filter	ON	ON
+Measurement.Port.OutputVoltageComparison	0	0
+Measurement.Primary.Locus	Single
+Measurement.Primary.Scale	LINEAR
+Measurement.Primary.Start	0
+Measurement.Primary.Stop	-60
+Measurement.Primary.Compliance	1E-05
+Measurement.Primary.Step	-0.2
+Measurement.Aborting.Condition	"CONTINUE AT ANY"
+Measurement.PostOutput.Value	START
+Measurement.PostOutput.Retention	OFF
+Measurement.Secondary.ACLevel	0.1
+Measurement.Secondary.FName	Freq
+Measurement.Secondary.Frequency	10000
+Measurement.Bias.Source	0	0	0
+Measurement.Bias.Compliance	1E-05	2
+Measurement.ImpedanceMode.Model	Cp-Rp
+Measurement.ImpedanceMode.CName	C
+Measurement.ImpedanceMode.LName	L
+Measurement.ImpedanceMode.GName	G
+Measurement.ImpedanceMode.RName	R
+Measurement.ImpedanceMode.QName	Q
+Measurement.ImpedanceMode.DName	D
+Measurement.ImpedanceMode.YName	Y
+Measurement.ImpedanceMode.ZName	Z
+Measurement.ImpedanceMode.ThName	Theta
+Measurement.ImpedanceMode.BName	B
+Measurement.ImpedanceMode.XName	X
+Measurement.Monitor.Unit	CMU1:MF	GNDU:GND	SMU4:HV
+Measurement.Monitor.RangingMode	AUTO	LIMITED	LIMITED
+Measurement.Monitor.RangeBoundary	50	1nA	10uA
+Measurement.Monitor.AcMonitorSymbol	
+Measurement.Monitor.DcMonitorSymbol	
+Measurement.Monitor.Adc	"HR ADC"	"HS ADC"
+Measurement.Monitor.Measurement	"Compliance Side"	"Force and Compliance Sides"
+Measurement.Monitor.RangeRating	"BY FULL RANGE"	"BY FULL RANGE"
+Measurement.Monitor.RangeRatingCoeff	50	50
+Measurement.Timing.Hold	0.5
+Measurement.Timing.Delay	0.5
+Measurement.Adc.UnitType	Cmu	Smu
+Measurement.Adc.HighResolution.Mode	AUTO	AUTO
+Measurement.Adc.HighResolution.Coeff	2	6
+Measurement.Adc.HighSpeed.Mode	AUTO
+Measurement.Adc.HighSpeed.Coeff	1
+Measurement.Adc.HighResolution.AutoZero	OFF
+Measurement.WaitTime.Source.Coeff	1
+Measurement.WaitTime.Source.Offset	0
+Measurement.WaitTime.Monitor.Coeff	1
+Measurement.WaitTime.Monitor.Offset	0
+Function.User.Name	C2
+Function.User.Unit	
+Function.User.Definition	1/(C^2)
+Output.Graph.Enabled	true
+Output.Graph.AutoScaling	false
+Output.Graph.XAxis.Data	V4
+Output.Graph.XAxis.Scale	Linear
+Output.Graph.XAxis.Left	0
+Output.Graph.XAxis.Right	-50
+Output.Graph.XAxis.RunTimeAutoScale	true
+Output.Graph.YAxis.Data	C	R	C2
+Output.Graph.YAxis.Scale	Linear	Linear	Linear
+Output.Graph.YAxis.Bottom	0	0	0
+Output.Graph.YAxis.Top	1E-10	10000	1
+Output.Graph.YAxis.Group			
+Output.Graph.YAxis.RunTimeAutoScale	true	true	true
+AutoAnalysis.Interpolation	false
+AutoAnalysis.Var2StepCount	1
+AutoAnalysis.Var2StepScript	
+AutoAnalysis.Line1.Enabled	false
+AutoAnalysis.Line1.Type	1
+AutoAnalysis.Line1.Fix	True
+AutoAnalysis.Line1.YAxis	0
+AutoAnalysis.Line1.Point1.Type	0
+AutoAnalysis.Line1.Point1.XY.X	
+AutoAnalysis.Line1.Point1.XY.Y	
+AutoAnalysis.Line1.Point1.Data.Var	
+AutoAnalysis.Line1.Point1.Data.Condition	
+AutoAnalysis.Line1.Point1.Data.Start	false
+AutoAnalysis.Line1.Point1.Data.StartVar	
+AutoAnalysis.Line1.Point1.Data.StartCondition	
+AutoAnalysis.Line1.Point2.Type	0
+AutoAnalysis.Line1.Point2.XY.X	
+AutoAnalysis.Line1.Point2.XY.Y	
+AutoAnalysis.Line1.Point2.Data.Var	
+AutoAnalysis.Line1.Point2.Data.Condition	
+AutoAnalysis.Line1.Point2.Data.Start	false
+AutoAnalysis.Line1.Point2.Data.StartVar	
+AutoAnalysis.Line1.Point2.Data.StartCondition	
+AutoAnalysis.Line1.GradientExpr	0
+AutoAnalysis.Line2.Enabled	false
+AutoAnalysis.Line2.Type	1
+AutoAnalysis.Line2.Fix	True
+AutoAnalysis.Line2.YAxis	0
+AutoAnalysis.Line2.Point1.Type	0
+AutoAnalysis.Line2.Point1.XY.X	
+AutoAnalysis.Line2.Point1.XY.Y	
+AutoAnalysis.Line2.Point1.Data.Var	
+AutoAnalysis.Line2.Point1.Data.Condition	
+AutoAnalysis.Line2.Point1.Data.Start	false
+AutoAnalysis.Line2.Point1.Data.StartVar	
+AutoAnalysis.Line2.Point1.Data.StartCondition	
+AutoAnalysis.Line2.Point2.Type	0
+AutoAnalysis.Line2.Point2.XY.X	
+AutoAnalysis.Line2.Point2.XY.Y	
+AutoAnalysis.Line2.Point2.Data.Var	
+AutoAnalysis.Line2.Point2.Data.Condition	
+AutoAnalysis.Line2.Point2.Data.Start	false
+AutoAnalysis.Line2.Point2.Data.StartVar	
+AutoAnalysis.Line2.Point2.Data.StartCondition	
+AutoAnalysis.Line2.GradientExpr	0
+AutoAnalysis.Marker.Enabled	false
+AutoAnalysis.Marker.Data.Var	
+AutoAnalysis.Marker.Data.Condition	
+AutoAnalysis.Marker.Data.Start	false
+AutoAnalysis.Marker.Data.StartVar	
+AutoAnalysis.Marker.Data.StartCondition	
+V4	C	R	C2
+0.0052	2.46803E-10	15376720	1.64172015946764E+19
+-0.2378	2.30769E-10	-3419627	1.87778153333897E+19
+-0.4168	2.11783E-10	61160980	2.22955303774639E+19
+-0.6032	2.10519E-10	-37592840	2.25640681754907E+19
+-0.8098	2.09453E-10	-5106099	2.27943299112278E+19
+-1.0266	2.0012E-10	-14258410	2.49700269784162E+19
+-1.2148	1.98722E-10	-3765067	2.53225887092295E+19
+-1.4028	1.96385E-10	-3375978	2.59288570799836E+19
+-1.6064	1.87167E-10	-4293058	2.85457489062433E+19
+-1.7986	1.85297E-10	-2858947	2.91248182513154E+19
+-2.016	1.85193E-10	-7655746	2.91575390517791E+19
+-2.18	1.80451E-10	15451300	3.07101129504224E+19
+-2.3998	1.78528E-10	-4582160	3.13752590702832E+19
+-2.5816	1.78963E-10	1917211	3.12229186366245E+19
+-2.832	1.74504E-10	4582171	3.28389473421101E+19
+-3.0254	1.7119E-10	-3503266	3.41226865019022E+19
+-3.209	1.68054E-10	-7547714	3.54080730113854E+19
+-3.3896	1.72381E-10	2977827	3.3652800307812E+19
+-3.5928	1.64891E-10	-9147778	3.67795233232845E+19
+-3.7738	1.61945E-10	-22382920	3.81298338018443E+19
+-3.9916	1.70969E-10	-14634850	3.4210959670247E+19
+-4.171	1.69214E-10	-11952240	3.49242763855718E+19
+-4.4144	1.62018E-10	2546035	3.80954814361122E+19
+-4.5668	1.63395E-10	32981930	3.74560929962723E+19
+-4.8384	1.60009E-10	-6600558	3.90581058395108E+19
+-4.9624	1.66882E-10	-3234191	3.59071559704495E+19
+-5.2152	1.60303E-10	48632560	3.89149699908285E+19
+-5.4044	1.60512E-10	7040044	3.88136949004016E+19
+-5.5904	1.62703E-10	-3926221	3.77753831917881E+19
+-5.819	1.62787E-10	4836030	3.77364081691953E+19
+-5.97	1.61813E-10	7881392	3.81920684921261E+19
+-6.2164	1.58345E-10	2798918	3.9883318917624E+19
+-6.3792	1.59161E-10	-3314070	3.94754129411834E+19
+-6.6056	1.58009E-10	6611071	4.00531199199906E+19
+-6.8256	1.50802E-10	4601272	4.39729697725632E+19
+-6.9842	1.61151E-10	19969410	3.8506495089278E+19
+-7.174	1.59561E-10	-2385956	3.92777409139879E+19
+-7.4018	1.57898E-10	-35785980	4.01094532365795E+19
+-7.6136	1.54331E-10	7362371	4.19849518559151E+19
+-7.814	1.51928E-10	123532300	4.33235821492656E+19
+-7.9952	1.49474E-10	-6920187	4.47577954092344E+19
+-8.2098	1.56969E-10	4810194	4.05856230050528E+19
+-8.4186	1.54262E-10	-20083950	4.20225192357035E+19
+-8.5506	1.4993E-10	-10525090	4.4485954981041E+19
+-8.8234	1.53739E-10	19321640	4.23089157951293E+19
+-8.9984	1.44866E-10	-16484010	4.76504561767151E+19
+-9.197	1.51789E-10	-10889430	4.34029651772384E+19
+-9.429	1.50051E-10	-15864170	4.44142376285711E+19
+-9.5938	1.52841E-10	-5950449	4.28075388002648E+19
+-9.7696	1.43754E-10	-6678064	4.83905016329134E+19
+-10.0126	1.49452E-10	2537960	4.47709734727333E+19
+-10.1666	1.52782E-10	-3314113	4.28406072566902E+19
+-10.4066	1.47714E-10	-3718695	4.58307202650275E+19

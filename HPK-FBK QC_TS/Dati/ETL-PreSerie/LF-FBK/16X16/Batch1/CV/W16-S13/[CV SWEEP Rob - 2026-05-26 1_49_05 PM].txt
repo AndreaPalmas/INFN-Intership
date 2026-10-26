@@ -1,0 +1,137 @@
+Setup title	"CV SWEEP Rob"
+Classic test name	"C-V Sweep"
+Test date	2026-05-26
+Test time	13:49:05
+Device ID	
+Count	1
+Flags	
+Remarks	
+Channel.UnitTyp	SMU	CMU	SMU
+Channel.Unit	SMU4:HV	CMU1:MF	SMU1:MP
+Channel.IName	I4		I1
+Channel.VName	V4	Cp	V1
+Channel.Mode	V		V
+Channel.Func	VAR1	CONST	CONST
+Channel.Index	
+Channel.Time	
+Measurement.Port.Unit	SMU4:HV	SMU1:MP
+Measurement.Port.SeriesResistor	NONE	NONE
+Measurement.Port.Filter	ON	ON
+Measurement.Port.OutputVoltageComparison	0	0
+Measurement.Primary.Locus	Single
+Measurement.Primary.Scale	LINEAR
+Measurement.Primary.Start	0
+Measurement.Primary.Stop	90
+Measurement.Primary.Compliance	0.0002
+Measurement.Primary.Step	90
+Measurement.Aborting.Condition	"STOP AT ANY ABNORMAL"
+Measurement.PostOutput.Value	START
+Measurement.PostOutput.Retention	OFF
+Measurement.Secondary.ACLevel	0.1
+Measurement.Secondary.FName	Freq
+Measurement.Secondary.Frequency	1000
+Measurement.Bias.Source	0	0	0
+Measurement.Bias.Compliance	0.0002	0.0001
+Measurement.ImpedanceMode.Model	Cp-Rp
+Measurement.ImpedanceMode.CName	Cp
+Measurement.ImpedanceMode.LName	L
+Measurement.ImpedanceMode.GName	G
+Measurement.ImpedanceMode.RName	Rp
+Measurement.ImpedanceMode.QName	Q
+Measurement.ImpedanceMode.DName	D
+Measurement.ImpedanceMode.YName	Y
+Measurement.ImpedanceMode.ZName	Z
+Measurement.ImpedanceMode.ThName	Theta
+Measurement.ImpedanceMode.BName	B
+Measurement.ImpedanceMode.XName	X
+Measurement.Monitor.Unit	CMU1:MF	SMU1:MP	SMU4:HV
+Measurement.Monitor.RangingMode	AUTO	LIMITED	LIMITED
+Measurement.Monitor.RangeBoundary	50	1nA	10uA
+Measurement.Monitor.AcMonitorSymbol	
+Measurement.Monitor.DcMonitorSymbol	
+Measurement.Monitor.Adc	"HR ADC"	"HS ADC"
+Measurement.Monitor.Measurement	"Compliance Side"	"Force and Compliance Sides"
+Measurement.Monitor.RangeRating	"BY FULL RANGE"	"BY FULL RANGE"
+Measurement.Monitor.RangeRatingCoeff	50	50
+Measurement.Timing.Hold	0.5
+Measurement.Timing.Delay	0.5
+Measurement.Adc.UnitType	Cmu	Smu
+Measurement.Adc.HighResolution.Mode	AUTO	AUTO
+Measurement.Adc.HighResolution.Coeff	2	6
+Measurement.Adc.HighSpeed.Mode	AUTO
+Measurement.Adc.HighSpeed.Coeff	1
+Measurement.Adc.HighResolution.AutoZero	OFF
+Measurement.WaitTime.Source.Coeff	1
+Measurement.WaitTime.Source.Offset	0
+Measurement.WaitTime.Monitor.Coeff	1
+Measurement.WaitTime.Monitor.Offset	0
+Function.User.Name	C2
+Function.User.Unit	F^-2
+Function.User.Definition	1/(Cp)^2
+Output.Graph.Enabled	true
+Output.Graph.AutoScaling	false
+Output.Graph.XAxis.Data	V4
+Output.Graph.XAxis.Scale	Linear
+Output.Graph.XAxis.Left	0
+Output.Graph.XAxis.Right	-50
+Output.Graph.XAxis.RunTimeAutoScale	true
+Output.Graph.YAxis.Data	Cp	Rp	C2
+Output.Graph.YAxis.Scale	Linear	Linear	Linear
+Output.Graph.YAxis.Bottom	0	0	0
+Output.Graph.YAxis.Top	1E-10	10000	1
+Output.Graph.YAxis.Group			
+Output.Graph.YAxis.RunTimeAutoScale	true	true	true
+AutoAnalysis.Interpolation	false
+AutoAnalysis.Var2StepCount	1
+AutoAnalysis.Var2StepScript	
+AutoAnalysis.Line1.Enabled	false
+AutoAnalysis.Line1.Type	1
+AutoAnalysis.Line1.Fix	True
+AutoAnalysis.Line1.YAxis	0
+AutoAnalysis.Line1.Point1.Type	0
+AutoAnalysis.Line1.Point1.XY.X	
+AutoAnalysis.Line1.Point1.XY.Y	
+AutoAnalysis.Line1.Point1.Data.Var	
+AutoAnalysis.Line1.Point1.Data.Condition	
+AutoAnalysis.Line1.Point1.Data.Start	false
+AutoAnalysis.Line1.Point1.Data.StartVar	
+AutoAnalysis.Line1.Point1.Data.StartCondition	
+AutoAnalysis.Line1.Point2.Type	0
+AutoAnalysis.Line1.Point2.XY.X	
+AutoAnalysis.Line1.Point2.XY.Y	
+AutoAnalysis.Line1.Point2.Data.Var	
+AutoAnalysis.Line1.Point2.Data.Condition	
+AutoAnalysis.Line1.Point2.Data.Start	false
+AutoAnalysis.Line1.Point2.Data.StartVar	
+AutoAnalysis.Line1.Point2.Data.StartCondition	
+AutoAnalysis.Line1.GradientExpr	0
+AutoAnalysis.Line2.Enabled	false
+AutoAnalysis.Line2.Type	1
+AutoAnalysis.Line2.Fix	True
+AutoAnalysis.Line2.YAxis	0
+AutoAnalysis.Line2.Point1.Type	0
+AutoAnalysis.Line2.Point1.XY.X	
+AutoAnalysis.Line2.Point1.XY.Y	
+AutoAnalysis.Line2.Point1.Data.Var	
+AutoAnalysis.Line2.Point1.Data.Condition	
+AutoAnalysis.Line2.Point1.Data.Start	false
+AutoAnalysis.Line2.Point1.Data.StartVar	
+AutoAnalysis.Line2.Point1.Data.StartCondition	
+AutoAnalysis.Line2.Point2.Type	0
+AutoAnalysis.Line2.Point2.XY.X	
+AutoAnalysis.Line2.Point2.XY.Y	
+AutoAnalysis.Line2.Point2.Data.Var	
+AutoAnalysis.Line2.Point2.Data.Condition	
+AutoAnalysis.Line2.Point2.Data.Start	false
+AutoAnalysis.Line2.Point2.Data.StartVar	
+AutoAnalysis.Line2.Point2.Data.StartCondition	
+AutoAnalysis.Line2.GradientExpr	0
+AutoAnalysis.Marker.Enabled	false
+AutoAnalysis.Marker.Data.Var	
+AutoAnalysis.Marker.Data.Condition	
+AutoAnalysis.Marker.Data.Start	false
+AutoAnalysis.Marker.Data.StartVar	
+AutoAnalysis.Marker.Data.StartCondition	
+V4	Cp	Rp	C2
+-0.0128	1.22408E-10	853428.4	6.67391076789522E+19
+90.0012	1.88216E-12	110640000	2.82284427841957E+23

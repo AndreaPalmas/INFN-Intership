@@ -1,0 +1,167 @@
+Setup title	"IV SWEEP NLGAD Irr"
+Classic test name	"I/V Sweep"
+Test date	2026-06-05
+Test time	16:16:51
+Device ID	NLGAD_FBK_W12_LP17_S2_5_3_LGAD
+Count	17
+Flags	
+Remarks	
+Context.MainFrame	B1500A
+Channel.UnitType	SMU	SMU	SMU
+Channel.Unit	SMU1:MP	SMU2:MP	SMU4:HV
+Channel.IName	I_pad	I_gr	I_back
+Channel.VName	V1	V2	V4
+Channel.Mode	V	V	V
+Channel.Func	CONST	CONST	VAR1
+Channel.Index	
+Channel.Time	
+Measurement.Port.Unit	SMU1:MP	SMU2:MP	SMU4:HV
+Measurement.Port.SeriesResistor	NONE	NONE	NONE
+Measurement.Port.Filter	ON	ON	ON
+Measurement.Port.OutputVoltageComparison	0	0	0
+Measurement.Primary.Locus	Double
+Measurement.Primary.Scale	LINEAR
+Measurement.Primary.Start	0
+Measurement.Primary.Stop	649.9995
+Measurement.Primary.Step	1.0005
+Measurement.Primary.Compliance	0.0003
+Measurement.Primary.PowerCompliance	0
+Measurement.Aborting.Condition	"CONTINUE AT ANY"
+Measurement.PostOutput.Value	START
+Measurement.PostOutput.Retention	OFF
+Measurement.Bias.Source	0	0	0
+Measurement.Bias.Compliance	0.0003	0.0003	0.0003
+Measurement.Monitor.Unit	SMU1:MP	SMU2:MP	SMU4:HV
+Measurement.Monitor.Adc	"HR ADC"	"HR ADC"	"HS ADC"
+Measurement.Monitor.Measurement	"Compliance Side"	"Compliance Side"	"Force and Compliance Sides"
+Measurement.Monitor.RangingMode	LIMITED	LIMITED	LIMITED
+Measurement.Monitor.RangeBoundary	1nA	1nA	10nA
+Measurement.Monitor.RangeRating	"BY FULL RANGE"	"BY FULL RANGE"	"BY FULL RANGE"
+Measurement.Monitor.RangeRatingCoeff	50	50	50
+Measurement.Timing.Hold	1
+Measurement.Timing.Delay	0.5
+Measurement.Adc.HighSpeed.Mode	AUTO
+Measurement.Adc.HighSpeed.Coeff	1
+Measurement.Adc.HighResolution.AutoZero	OFF
+Measurement.Adc.HighResolution.Mode	AUTO
+Measurement.Adc.HighResolution.Coeff	6
+Measurement.WaitTime.Source.Coeff	1
+Measurement.WaitTime.Source.Offset	0
+Measurement.WaitTime.Monitor.Coeff	1
+Measurement.WaitTime.Monitor.Offset	0
+Output.Graph.Enabled	true
+Output.Graph.AutoScaling	false
+Output.Graph.XAxis.Data	V4
+Output.Graph.XAxis.Scale	Linear
+Output.Graph.XAxis.Left	0
+Output.Graph.XAxis.Right	-260
+Output.Graph.XAxis.RunTimeAutoScale	true
+Output.Graph.YAxis.Data	I_back	I_pad	I_gr
+Output.Graph.YAxis.Scale	Linear	Linear	Linear
+Output.Graph.YAxis.Bottom	-1E-05	-1E-05	-1E-05
+Output.Graph.YAxis.Top	1E-05	1E-05	1E-05
+Output.Graph.YAxis.Group			
+Output.Graph.YAxis.RunTimeAutoScale	true	true	true
+AutoAnalysis.Interpolation	false
+AutoAnalysis.Var2StepCount	1
+AutoAnalysis.Var2StepScript	
+AutoAnalysis.Line1.Enabled	false
+AutoAnalysis.Line1.Type	1
+AutoAnalysis.Line1.Fix	True
+AutoAnalysis.Line1.YAxis	0
+AutoAnalysis.Line1.Point1.Type	0
+AutoAnalysis.Line1.Point1.XY.X	
+AutoAnalysis.Line1.Point1.XY.Y	
+AutoAnalysis.Line1.Point1.Data.Var	
+AutoAnalysis.Line1.Point1.Data.Condition	
+AutoAnalysis.Line1.Point1.Data.Start	false
+AutoAnalysis.Line1.Point1.Data.StartVar	
+AutoAnalysis.Line1.Point1.Data.StartCondition	
+AutoAnalysis.Line1.Point2.Type	0
+AutoAnalysis.Line1.Point2.XY.X	
+AutoAnalysis.Line1.Point2.XY.Y	
+AutoAnalysis.Line1.Point2.Data.Var	
+AutoAnalysis.Line1.Point2.Data.Condition	
+AutoAnalysis.Line1.Point2.Data.Start	false
+AutoAnalysis.Line1.Point2.Data.StartVar	
+AutoAnalysis.Line1.Point2.Data.StartCondition	
+AutoAnalysis.Line1.GradientExpr	0
+AutoAnalysis.Line2.Enabled	false
+AutoAnalysis.Line2.Type	1
+AutoAnalysis.Line2.Fix	True
+AutoAnalysis.Line2.YAxis	0
+AutoAnalysis.Line2.Point1.Type	0
+AutoAnalysis.Line2.Point1.XY.X	
+AutoAnalysis.Line2.Point1.XY.Y	
+AutoAnalysis.Line2.Point1.Data.Var	
+AutoAnalysis.Line2.Point1.Data.Condition	
+AutoAnalysis.Line2.Point1.Data.Start	false
+AutoAnalysis.Line2.Point1.Data.StartVar	
+AutoAnalysis.Line2.Point1.Data.StartCondition	
+AutoAnalysis.Line2.Point2.Type	0
+AutoAnalysis.Line2.Point2.XY.X	
+AutoAnalysis.Line2.Point2.XY.Y	
+AutoAnalysis.Line2.Point2.Data.Var	
+AutoAnalysis.Line2.Point2.Data.Condition	
+AutoAnalysis.Line2.Point2.Data.Start	false
+AutoAnalysis.Line2.Point2.Data.StartVar	
+AutoAnalysis.Line2.Point2.Data.StartCondition	
+AutoAnalysis.Line2.GradientExpr	0
+AutoAnalysis.Marker.Enabled	false
+AutoAnalysis.Marker.Data.Var	
+AutoAnalysis.Marker.Data.Condition	
+AutoAnalysis.Marker.Data.Start	false
+AutoAnalysis.Marker.Data.StartVar	
+AutoAnalysis.Marker.Data.StartCondition	
+V4	I_back	I_pad	I_gr
+0	3.359E-09	1.6323E-09	7.4266E-09
+1.0005	2.80166E-08	-1.8975E-09	-1.50998E-08
+1.9995	3.66221E-08	-2.436E-09	-2.08508E-08
+3	1.57098E-08	-2.7704E-09	-2.47034E-08
+4.0005	3.74602E-08	-3.0163E-09	-2.74476E-08
+4.9995	2.17048E-08	-3.2177E-09	-2.94594E-08
+6	4.50797E-08	-3.3964E-09	-3.10228E-08
+7.0005	4.92707E-08	-3.5846E-09	-3.23044E-08
+7.9995	2.54441E-08	-3.7588E-09	-3.32734E-08
+9	3.04478E-08	-3.9614E-09	-3.40478E-08
+10.0005	4.83673E-08	-4.1941E-09	-3.47218E-08
+10.9995	4.21107E-08	-4.4666E-09	-3.5265E-08
+12	5.33154E-08	-4.792E-09	-3.57118E-08
+13.0005	3.76517E-08	-5.1566E-09	-3.60848E-08
+13.9995	3.31774E-08	-5.5581E-09	-3.63712E-08
+15	3.2441E-08	-6.0322E-09	-3.65672E-08
+16.0005	3.56058E-08	-6.5804E-09	-3.68618E-08
+16.9995	2.53635E-08	-7.1787E-09	-3.69344E-08
+18	5.87996E-08	-7.8396E-09	-3.6932E-08
+19.0005	4.85713E-08	-8.5713E-09	-3.68876E-08
+19.9995	3.26478E-08	-9.3934E-09	-3.68562E-08
+21	7.24342E-08	-1.03033E-08	-3.6786E-08
+22.0005	6.47502E-08	-1.12822E-08	-3.66402E-08
+22.9995	3.61176E-08	-1.23186E-08	-3.64114E-08
+24	6.07032E-08	-1.3463E-08	-3.62436E-08
+25.0005	4.32178E-08	-1.46966E-08	-3.6064E-08
+25.9995	6.90161E-08	-1.59894E-08	-3.5855E-08
+27	4.71915E-08	-1.73408E-08	-3.56226E-08
+28.0005	4.36456E-08	-1.87098E-08	-3.53896E-08
+28.9995	6.41147E-08	-2.00784E-08	-3.51454E-08
+30	4.11609E-08	-2.14538E-08	-3.49182E-08
+31.0005	7.27621E-08	-2.28592E-08	-3.47732E-08
+31.9995	4.8012E-08	-2.43116E-08	-3.47524E-08
+33	8.20341E-08	-2.57706E-08	-3.4714E-08
+34.0005	7.47043E-08	-2.72464E-08	-3.47216E-08
+34.9995	7.12793E-08	-2.87658E-08	-3.47402E-08
+36	6.98532E-08	-3.03278E-08	-3.47486E-08
+37.0005	5.3353E-08	-3.1954E-08	-3.47994E-08
+37.9995	5.62362E-08	-3.368E-08	-3.48782E-08
+39	9.37075E-08	-3.5422E-08	-3.48996E-08
+40.0005	8.715E-08	-3.7182E-08	-3.4917E-08
+40.9995	7.35745E-08	-3.90914E-08	-3.4991E-08
+42	8.67572E-08	-4.10734E-08	-3.50526E-08
+43.0005	6.26605E-08	-4.3173E-08	-3.51294E-08
+43.9995	6.37383E-08	-4.53408E-08	-3.51676E-08
+45	1.14665E-07	-4.75664E-08	-3.52032E-08
+45.999	9.6243E-08	-4.97908E-08	-3.52566E-08
+46.9995	7.96868E-08	-5.2063E-08	-3.53234E-08
+48	6.6563E-08	-5.42848E-08	-3.54074E-08
+49.0005	7.5428E-08	-5.65158E-08	-3.54828E-08
+50.0055	9.3739E-08	-5.8615E-08	-3.55082E-08

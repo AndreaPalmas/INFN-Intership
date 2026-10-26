@@ -1,0 +1,154 @@
+Setup title	"IV SWEEP NLGAD Irr"
+Classic test name	"I/V Sweep"
+Test date	2026-06-08
+Test time	15:43:38
+Device ID	
+Count	1
+Flags	
+Remarks	
+Context.MainFrame	B1500A
+Channel.UnitType	SMU	SMU	SMU
+Channel.Unit	SMU1:MP	SMU2:MP	SMU4:HV
+Channel.IName	I_pad	I_gr	I_back
+Channel.VName	V1	V2	V4
+Channel.Mode	V	V	V
+Channel.Func	CONST	CONST	VAR1
+Channel.Index	
+Channel.Time	
+Measurement.Port.Unit	SMU1:MP	SMU2:MP	SMU4:HV
+Measurement.Port.SeriesResistor	NONE	NONE	NONE
+Measurement.Port.Filter	ON	ON	ON
+Measurement.Port.OutputVoltageComparison	0	0	0
+Measurement.Primary.Locus	Double
+Measurement.Primary.Scale	LINEAR
+Measurement.Primary.Start	0
+Measurement.Primary.Stop	320
+Measurement.Primary.Step	1
+Measurement.Primary.Compliance	0.0003
+Measurement.Primary.PowerCompliance	0
+Measurement.Aborting.Condition	"CONTINUE AT ANY"
+Measurement.PostOutput.Value	START
+Measurement.PostOutput.Retention	OFF
+Measurement.Bias.Source	0	0	0
+Measurement.Bias.Compliance	0.0002	0.0002	0.0003
+Measurement.Monitor.Unit	SMU1:MP	SMU2:MP	SMU4:HV
+Measurement.Monitor.Adc	"HR ADC"	"HR ADC"	"HS ADC"
+Measurement.Monitor.Measurement	"Compliance Side"	"Compliance Side"	"Force and Compliance Sides"
+Measurement.Monitor.RangingMode	LIMITED	LIMITED	LIMITED
+Measurement.Monitor.RangeBoundary	1nA	1nA	10nA
+Measurement.Monitor.RangeRating	"BY FULL RANGE"	"BY FULL RANGE"	"BY FULL RANGE"
+Measurement.Monitor.RangeRatingCoeff	50	50	50
+Measurement.Timing.Hold	1
+Measurement.Timing.Delay	0.5
+Measurement.Adc.HighSpeed.Mode	AUTO
+Measurement.Adc.HighSpeed.Coeff	1
+Measurement.Adc.HighResolution.AutoZero	OFF
+Measurement.Adc.HighResolution.Mode	AUTO
+Measurement.Adc.HighResolution.Coeff	6
+Measurement.WaitTime.Source.Coeff	1
+Measurement.WaitTime.Source.Offset	0
+Measurement.WaitTime.Monitor.Coeff	1
+Measurement.WaitTime.Monitor.Offset	0
+Output.Graph.Enabled	true
+Output.Graph.AutoScaling	false
+Output.Graph.XAxis.Data	V4
+Output.Graph.XAxis.Scale	Linear
+Output.Graph.XAxis.Left	0
+Output.Graph.XAxis.Right	-260
+Output.Graph.XAxis.RunTimeAutoScale	true
+Output.Graph.YAxis.Data	I_back	I_pad	I_gr
+Output.Graph.YAxis.Scale	Linear	Linear	Linear
+Output.Graph.YAxis.Bottom	-1E-05	-1E-05	-1E-05
+Output.Graph.YAxis.Top	1E-05	1E-05	1E-05
+Output.Graph.YAxis.Group			
+Output.Graph.YAxis.RunTimeAutoScale	true	true	true
+AutoAnalysis.Interpolation	false
+AutoAnalysis.Var2StepCount	1
+AutoAnalysis.Var2StepScript	
+AutoAnalysis.Line1.Enabled	false
+AutoAnalysis.Line1.Type	1
+AutoAnalysis.Line1.Fix	True
+AutoAnalysis.Line1.YAxis	0
+AutoAnalysis.Line1.Point1.Type	0
+AutoAnalysis.Line1.Point1.XY.X	
+AutoAnalysis.Line1.Point1.XY.Y	
+AutoAnalysis.Line1.Point1.Data.Var	
+AutoAnalysis.Line1.Point1.Data.Condition	
+AutoAnalysis.Line1.Point1.Data.Start	false
+AutoAnalysis.Line1.Point1.Data.StartVar	
+AutoAnalysis.Line1.Point1.Data.StartCondition	
+AutoAnalysis.Line1.Point2.Type	0
+AutoAnalysis.Line1.Point2.XY.X	
+AutoAnalysis.Line1.Point2.XY.Y	
+AutoAnalysis.Line1.Point2.Data.Var	
+AutoAnalysis.Line1.Point2.Data.Condition	
+AutoAnalysis.Line1.Point2.Data.Start	false
+AutoAnalysis.Line1.Point2.Data.StartVar	
+AutoAnalysis.Line1.Point2.Data.StartCondition	
+AutoAnalysis.Line1.GradientExpr	0
+AutoAnalysis.Line2.Enabled	false
+AutoAnalysis.Line2.Type	1
+AutoAnalysis.Line2.Fix	True
+AutoAnalysis.Line2.YAxis	0
+AutoAnalysis.Line2.Point1.Type	0
+AutoAnalysis.Line2.Point1.XY.X	
+AutoAnalysis.Line2.Point1.XY.Y	
+AutoAnalysis.Line2.Point1.Data.Var	
+AutoAnalysis.Line2.Point1.Data.Condition	
+AutoAnalysis.Line2.Point1.Data.Start	false
+AutoAnalysis.Line2.Point1.Data.StartVar	
+AutoAnalysis.Line2.Point1.Data.StartCondition	
+AutoAnalysis.Line2.Point2.Type	0
+AutoAnalysis.Line2.Point2.XY.X	
+AutoAnalysis.Line2.Point2.XY.Y	
+AutoAnalysis.Line2.Point2.Data.Var	
+AutoAnalysis.Line2.Point2.Data.Condition	
+AutoAnalysis.Line2.Point2.Data.Start	false
+AutoAnalysis.Line2.Point2.Data.StartVar	
+AutoAnalysis.Line2.Point2.Data.StartCondition	
+AutoAnalysis.Line2.GradientExpr	0
+AutoAnalysis.Marker.Enabled	false
+AutoAnalysis.Marker.Data.Var	
+AutoAnalysis.Marker.Data.Condition	
+AutoAnalysis.Marker.Data.Start	false
+AutoAnalysis.Marker.Data.StartVar	
+AutoAnalysis.Marker.Data.StartCondition	
+V4	I_back	I_pad	I_gr
+0	-3.75043E-08	3.77196E-08	1.13E-12
+1.002	2.30922E-07	-2.2716E-07	-9.345E-11
+1.9985	2.9845E-07	-2.7316E-07	-1.36272E-08
+2.992	3.58529E-07	-2.3792E-07	-1.0718E-07
+3.994	3.77756E-07	-2.181E-07	-1.552E-07
+5.0185	4.09235E-07	-1.7932E-07	-2.1448E-07
+5.9995	4.15939E-07	-1.8248E-07	-2.1978E-07
+6.9955	4.25451E-07	-1.8504E-07	-2.2412E-07
+8.0135	4.32558E-07	-1.8718E-07	-2.2786E-07
+8.995	4.30698E-07	-1.889E-07	-2.3078E-07
+10.004	4.32793E-07	-1.8982E-07	-2.3378E-07
+10.997	4.39314E-07	-1.9088E-07	-2.3624E-07
+12.002	4.49484E-07	-1.918E-07	-2.386E-07
+13.004	4.50546E-07	-1.9258E-07	-2.4074E-07
+14.0025	4.55346E-07	-1.933E-07	-2.427E-07
+14.9825	4.56537E-07	-1.9412E-07	-2.444E-07
+15.989	4.50435E-07	-1.9512E-07	-2.4502E-07
+16.9965	4.5615E-07	-1.9584E-07	-2.4626E-07
+17.996	4.62099E-07	-1.9626E-07	-2.479E-07
+18.9995	4.75741E-07	-1.9612E-07	-2.5164E-07
+19.9955	4.60545E-07	-1.964E-07	-2.5308E-07
+21.0055	4.6174E-07	-1.9804E-07	-2.5136E-07
+22.0015	4.6911E-07	-1.9734E-07	-2.5598E-07
+22.9915	4.58298E-07	-1.976E-07	-2.572E-07
+24.007	4.76761E-07	-1.9806E-07	-2.5856E-07
+24.9945	4.71427E-07	-1.983E-07	-2.5968E-07
+26.0015	4.81095E-07	-1.9872E-07	-2.609E-07
+26.9995	4.7242E-07	-1.9906E-07	-2.6202E-07
+28.0085	4.72568E-07	-1.9928E-07	-2.63E-07
+29.0085	4.87248E-07	-1.997E-07	-2.6416E-07
+30.0055	4.81841E-07	-1.9988E-07	-2.651E-07
+30.9925	4.89592E-07	-2.003E-07	-2.6614E-07
+32.003	4.82212E-07	-2.0064E-07	-2.6716E-07
+33	4.89362E-07	-2.0082E-07	-2.6798E-07
+34.0035	4.88003E-07	-2.0106E-07	-2.6884E-07
+34.9925	4.76407E-07	-2.0132E-07	-2.6972E-07
+35.994	4.93844E-07	-2.0168E-07	-2.7064E-07
+36.9925	4.96209E-07	-2.0192E-07	-2.7152E-07
